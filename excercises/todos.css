@@ -1,0 +1,16 @@
+body {
+    background: rgba(123,234,33,.2)
+}
+li {
+    border: 2px solid red;
+}
+#project {
+    background: rgba(123,234,33,.5);
+}
+.done {
+    text-decoration: line-through;
+}
+.ash {
+    color: red;
+    font-size: 2em;
+}

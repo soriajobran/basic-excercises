@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form exercise</title>
+    </head>
+    <body>
+        <h2>Login</h2>
+        <form action="https://www.facebook.com">
+            <label for="username">Email:
+                <input id="username" type="email" placeholder="username" required>
+            </label>
+            <label for="password">Password:
+                <input id="password" type="password" placeholder="password" required>
+            </label>
+            <input type="submit"> 
+        </form>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <p>Which one do you prefer?</p>
+        <form>
+            <label for="surfing">Surfing</label>
+            <input name="hoby" id="surfing" type="radio" value="surfing">
+            <br/>
+            <label for="swimming">Swimming</label>
+            <input name="hoby"id="swimming" type="radio" value="swimming">
+            <br/>
+            <p>Which country do you wanna live in</p>
+            <select name="country">
+                <option>USA</option>
+                <option>Germany</option>
+                <option>Ferance</option>
+                <option>Italy</option>
+            </select>
+        <p>What is your favorite color?</p>
+            <label for="green">Green</label>
+            <input name="color" id="green" type="checkbox" value="green">
+            <br/>
+            <label for="blue">Blue</label>
+            <input name="color" id="blue" type="checkbox" value="blue">
+            <br/>
+            <label for="black">Black</label>
+            <input name="color" id="black" type="checkbox" value="black">
+            <br/>
+            <p>In the following box you can write your comments.</p>
+            <textarea name="text" rows="10" cols="20"></textarea>
+            <br/>
+            <br/>
+            <button>Submit</button>
+        </form>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h3>***Exercise</h3>
+        <br/>
+        <h2>Register</h2>
+        <form>
+            <lable for="first">First Name:</lable>
+            <input name="first" id="first" type="text" placeholder="Soria" required>
+            <label for="last">Last Name:</label>
+            <input name="last" id="last" type="text" placeholder="Jobaran" required>
+         <div>
+            <label for="male">Male</label>
+            <input name="gender" id="male" type="radio" value="male">
+            
+            <label for="female">Female</label>
+            <input name="gender" id="female" type="radio" value="female">   
+            <label for="other">Other</label>
+            <input name="gender" id="other" type="radio" value="other">
+         </div>
+            
+        <div>
+            <lable>Email:
+                <input name="email" id="email" type="email" placeholder="your email" required>
+            </lable>
+            <label>Password:
+                <input  name="pass"id="pass" type="password" placeholder="your pass" minlength="10" required>
+            </label>
+        </div>
+            
+        <div>
+            <label>Birthday:
+                <select name="Month">
+                    <option>Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                </select>
+                <select name="day">
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>  
+                </select>
+                <select name="year">
+                        <option>Year</option>
+                        <option>2018</option>
+                        <option>2017</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option> 
+                </select>
+                </label>
+        </div>
+        <div>
+            <label>I agree to the terms and conditions
+                <input id="agree" name="agree" type="checkbox">
+            </label>
+        </div>
+            <button>Submit</button>
+           
+        </form>
+        
+    </body>
+    
+</html>

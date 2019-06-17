@@ -1,0 +1,15 @@
+h1 {
+    color: rgba(0, 114, 0, .9);
+    border: #882211 4px dashed;
+}
+h2 {
+    color: #8080ff;
+}
+li {
+    color: rgba(255,0,0,.8);
+}
+body {
+    background: url(https://source4interiors.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/1/4/143095_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
